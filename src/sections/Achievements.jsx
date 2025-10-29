@@ -11,8 +11,8 @@ import pythonBasicHackerrank from "../assets/armaan_python_basic certificate_pag
 import deloitteCert from "../assets/Deloitte_VInt_armaan_completion_certificate.pdf";
 import tataCert from "../assets/tata_job_simulation_cert.pdf";
 import iaacCert from "../assets/IAAC_participation_cert.pdf";
-import oracleProfessional from "../assets/Oracle_Certified_Professional.jpg";
-import oracleFoundations from "../assets/Oracle_Certified_Foundations_Associate.jpg";
+import oracleProfessional from "../assets/Oracle_Certified_professional.jpg";
+import oracleFoundations from "../assets/Oracle_certified_foundations_associate.jpg";
 import sleepwellEffectiveness from "../assets/Sleepwell_preofessional_effectiveness.jpg";
 
 const Card = ({ item }) => {
