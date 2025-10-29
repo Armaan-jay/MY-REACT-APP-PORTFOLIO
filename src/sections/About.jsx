@@ -30,6 +30,9 @@ const About = () => {
     "Google Solution Challenge 2025",
     "Water Tech Challenge",
     "Gen AI Exchange Program",
+    "Oracle Certified Professional",
+    "Oracle Certified Foundations Associate",
+    "Sleepwell Professional Effectiveness",
   ];
 
   return (

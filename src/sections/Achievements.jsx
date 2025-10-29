@@ -11,6 +11,9 @@ import pythonBasicHackerrank from "../assets/armaan_python_basic certificate_pag
 import deloitteCert from "../assets/Deloitte_VInt_armaan_completion_certificate.pdf";
 import tataCert from "../assets/tata_job_simulation_cert.pdf";
 import iaacCert from "../assets/IAAC_participation_cert.pdf";
+import oracleProfessional from "../assets/Oracle_Certified_Professional.jpg";
+import oracleFoundations from "../assets/Oracle_Certified_Foundations_Associate.jpg";
+import sleepwellEffectiveness from "../assets/Sleepwell_preofessional_effectiveness.jpg";
 
 const Card = ({ item }) => {
   const isImage = item.src && /\.(png|jpe?g|gif|webp|svg)$/i.test(item.src);
@@ -129,6 +132,24 @@ const Achievements = () => {
       meta: "Professional Simulation • PDF",
       desc: "Completed Deloitte's virtual job simulation covering consulting workflows: scoping, data analysis, visualization, and client-oriented communication.",
       src: deloitteCert,
+    },
+    {
+      title: "Oracle Certified Professional",
+      meta: "Oracle Certification",
+      desc: "Achieved Oracle Certified Professional status, demonstrating advanced expertise in Oracle technologies and database management.",
+      src: oracleProfessional,
+    },
+    {
+      title: "Oracle Certified Foundations Associate",
+      meta: "Oracle Certification",
+      desc: "Earned Oracle Certified Foundations Associate certification, validating foundational knowledge of Oracle cloud and database concepts.",
+      src: oracleFoundations,
+    },
+    {
+      title: "Sleepwell Professional Effectiveness",
+      meta: "Professional Development",
+      desc: "Completed Sleepwell's professional effectiveness program, enhancing skills in productivity, time management, and workplace performance.",
+      src: sleepwellEffectiveness,
     },
   ];
 
