@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar.jsx";
-import ChatWidget from "./components/ChatWidget.jsx";
+import Chatbot from "./components/Chatbot.jsx";
 import Home from "./sections/Home.jsx";
 import About from "./sections/About.jsx";
 import Achievements from "./sections/Achievements.jsx";
@@ -24,7 +24,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      <ChatWidget />
+      <Chatbot />
     </>
   );
 }
